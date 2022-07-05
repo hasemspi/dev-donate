@@ -48,7 +48,7 @@ button{
     width: 50%;
     margin: 0 auto;
     padding-top: 6%;
-    padding-bottom: 6%;
+    padding-bottom: 4%;
  }
  .donate_today{
 
@@ -90,10 +90,54 @@ input {
     padding: 10px 10px 10px 5px;
     border: none;
     border-radius: 0;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid crimson;
     width: 100%;
     text-align: center;
+}
+input:focus-visible {
+    outline:none !important;
+    border-radius: 3px;
 }
 .donate_today_text button{
     margin-top: 4%
 }
+#Donate_Plan_section{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 1%;
+}
+.donate_distibustion{
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.donate_dis_01{
+    max-width: 33%;
+    background-color: #4fa68833;
+    padding: 20px;
+    margin-right: 20px;
+}
+.donate_dis_02{
+    max-width: 33%;
+    background-color: #4463af52;
+    padding: 20px;
+    margin-right: 20px;
+}
+.donate_dis_03{
+    max-width: 33%;
+    background-color: #84828d1f;
+    padding: 20px;
+   
+}
+.donate_dis_01 img {
+
+ }
+ .donate_dis_01 h3{
+
+ }
+ .donate_dis_01 p{
+
+ }
