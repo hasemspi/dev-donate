@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #282626;
+}
+#header_section{
+    background-image: url(../img/donation_bacground.png);
+    background-position-y: center;
+    background-repeat: no-repeat;
+   
+}
+.header_text_area{
+    text-align: center;
+    width: 41%;
+    margin: 0 auto;
+    padding-top: 6%;
+    color: #fff;
+    padding-bottom: 6%;
+}
+.header_text_area h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.header_text_area p{
+    line-height: 1.9;
+    text-align: center;
+    font-size: 18px;
+}
+button{
+    background-color: red;
+    padding: 10px 20px;
+    color: #fff;
+    border: navajowhite;
+    border-radius: 3px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+.donate_button{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+ /* donate today sectin */
+ #donate_today_section{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 6%;
+    padding-bottom: 6%;
+ }
+ .donate_today{
+
+ }
+ .donate_today h1{
+    font-size: 35px;
+ }
+ .donate_today p{
+
+ }
